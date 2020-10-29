@@ -2,14 +2,14 @@
 Read the Docs Sphinx Theme
 **************************
 
-.. image:: https://img.shields.io/pypi/v/sphinx_rtd_theme.svg
-   :target: https://pypi.python.org/pypi/sphinx_rtd_theme
+.. image:: https://img.shields.io/pypi/v/sphinx_funtoo_theme.svg
+   :target: https://pypi.python.org/pypi/sphinx_funtoo_theme
    :alt: Pypi Version
-.. image:: https://travis-ci.org/readthedocs/sphinx_rtd_theme.svg?branch=master
-   :target: https://travis-ci.org/readthedocs/sphinx_rtd_theme
+.. image:: https://travis-ci.org/readthedocs/sphinx_funtoo_theme.svg?branch=master
+   :target: https://travis-ci.org/readthedocs/sphinx_funtoo_theme
    :alt: Build Status
-.. image:: https://img.shields.io/pypi/l/sphinx_rtd_theme.svg
-   :target: https://pypi.python.org/pypi/sphinx_rtd_theme/
+.. image:: https://img.shields.io/pypi/l/sphinx_funtoo_theme.svg
+   :target: https://pypi.python.org/pypi/sphinx_funtoo_theme/
    :alt: License
 .. image:: https://readthedocs.org/projects/sphinx-rtd-theme/badge/?version=latest
   :target: http://sphinx-rtd-theme.readthedocs.io/en/latest/?badge=latest
@@ -38,18 +38,18 @@ your ``conf.py`` file:
 
 .. code:: python
 
-    import sphinx_rtd_theme
+    import sphinx_funtoo_theme
 
     extensions = [
         ...
-        "sphinx_rtd_theme",
+        "sphinx_funtoo_theme",
     ]
 
-    html_theme = "sphinx_rtd_theme"
+    html_theme = "sphinx_funtoo_theme"
 
 For more information read the full documentation on `installing the theme`_
 
-.. _PyPI: https://pypi.python.org/pypi/sphinx_rtd_theme
+.. _PyPI: https://pypi.python.org/pypi/sphinx_funtoo_theme
 .. _installing the theme: https://sphinx-rtd-theme.readthedocs.io/en/latest/installing.html
 
 Configuration
