@@ -114,7 +114,9 @@
       <div class="wy-side-scroll">
         <div class="wy-side-nav-search" {% if theme_style_nav_header_background %} style="background: {{theme_style_nav_header_background}}" {% endif %}>
           {% block sidebartitle %}
-
+          {%- if project_url is defined %}
+            <a href="{{project_url}}" class="icon icon-double-left" title="Back to project page"></a>
+          {%- endif %}
           {% if logo and theme_logo_only %}
             <a href="{{ pathto(master_doc) }}">
           {% else %}
