@@ -85,12 +85,12 @@ class TransifexCommand(distutils.cmd.Command):
 
 setup(
     name='sphinx_funtoo_theme',
-    version='0.5.0',
+    version='0.1',
     url='https://github.com/readthedocs/sphinx_funtoo_theme',
     license='MIT',
-    author='Dave Snider, Read the Docs, Inc. & contributors',
-    author_email='dev@readthedocs.org',
-    description='Read the Docs theme for Sphinx',
+    author='Daniel Robbins, Dave Snider, Read the Docs, Inc. & contributors',
+    author_email='drobbins@funtoo.org',
+    description='Funtoo theme for Sphinx',
     long_description=open('README.rst', encoding='utf-8').read(),
     cmdclass={
         'update_translations': UpdateTranslationsCommand,
